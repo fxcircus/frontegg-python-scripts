@@ -10,7 +10,7 @@ API_TOKEN ="APIToken" # API Key from Frontegg Portal ➜ [ENVIRONMENT] ➜ Setti
 TENANT_ID = "TENANT_ID"
 REGION = "EU"
 
-METADATA = "METADATA" # metadate key to search
+METADATA = "METADATA" # value to search in the metadata field
 
 if REGION == "US":
     API_URL = "https://api.us.frontegg.com"
