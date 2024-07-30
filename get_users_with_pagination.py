@@ -15,10 +15,12 @@ if REGION == "US":
     API_URL = "https://api.us.frontegg.com"
 elif REGION == "EU":
     API_URL = "https://api.frontegg.com"
-elif REGION == "AP":
-    API_URL = "https://api.ap.frontegg.com"
+elif REGION == "AU":
+    API_URL = "https://api.au.frontegg.com"
+elif REGION == "CA":
+    API_URL = "https://api.ca.frontegg.com"
 else:
-    raise ValueError(f"REGION = {REGION} is invalid! change to EU | US | AP\n")
+    raise ValueError(f"REGION = {REGION} is invalid! change to EU | US | AP | CA\n")
 
 DEFAULT_HEADERS = {"accept": "application/json", "content-type": "application/json"}
 
