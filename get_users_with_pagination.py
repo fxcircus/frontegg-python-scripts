@@ -7,8 +7,6 @@ import re
 # Global variables
 CLIENT_ID="ClientId" # Client ID from Frontegg Portal ➜ [ENVIRONMENT] ➜ Settings page
 API_TOKEN ="APIToken" # API Key from Frontegg Portal ➜ [ENVIRONMENT] ➜ Settings page
-TENANT_ID = "TENANT_ID"
-ROLE_ID = "ROLE_ID"
 REGION = "EU"
 
 if REGION == "US":
